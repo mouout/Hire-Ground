@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./imgs/favicon.jpg" type="image/x-icon">
+    <title>Hire Ground</title>
+</head>
+<body>
+    <div class="container">
+        <!-- aside section -->
+        <aside>
+            <div class="brand">
+                <img src="./imgs/logo.png" alt="brand" class="logo" />
+            </div>
+            <div class="sidebar">
+                <a href="">
+                    <i class="fa fa-dashboard"></i>
+                    <p>Dashboard</p>
+                </a>
+                <a href="">
+                    <i class="fa fa-briefcase-clock"></i>
+                    <p>Opportunities</p>
+                    <select></select>
+                </a>
+                <a href="">
+                    <i class="fa fa-user-circle"></i>
+                    <p>Suppliers</p>
+                </a>
+                <a href="">
+                    <i class="fa fa-tag"></i>
+                    <p>Buyers</p>
+                </a>
+                <a href="">
+                    <i class="fa fa-paper-plane"></i>
+                    <p>Contacts</p>
+                </a>
+                <a href="">
+                    <i class="fa fa-splotch"></i>
+                    <p>Watchlist</p>
+                </a>
+                <a href="">
+                    <i class="fa fa-message"></i>
+                    <p>Messages <span>3</span></p>
+                </a>
+                <a href="">
+                    <i class="fa fa-calendar"></i>
+                    <p>Scheduling</p>
+                </a>
+            </div>
+        </aside>
+        <!-- main section -->
+        <main>
+            <div class="header">
+                <div class="right">
+                    <h4>Profile</h4>
+                </div>
+                <div class="profile">
+                    <i class="fa fa-bell"></i>
+                    <img src="./imgs/profile-picture.jpg" alt="profile" class="profile-img" />
+                    <span>Thomas Rollo</span>
+                    <select></select>
+                </div>
+            </div>
+            <div class="cover">
+                <div class="cover-picture"></div>
+                <div class="change-cover">
+                    <i class="fa fa-camera"></i>
+                    <span>Change Cover</span>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="info">
+                    <div class="person">
+                        <img src="./imgs/profile-picture.jpg" alt="" />
+                        <i class="fa fa-camera" title="change profile picture"></i>
+                        <h3>Thomas Rollo</h3>
+                        <P class="muted">Author</P>
+                    </div>
+                    <div class="opportunities">
+                        <div class="applied-opp">
+                            Opportunities Applied
+                            <span class="warning">52</span>
+                        </div>
+                        <div class="won-opp">
+                            Opportunities Won
+                            <span class="success">26</span>
+                        </div>
+                        <div class="current-opp">
+                            Current Opportunities
+                            <span class="muted">6</span>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <button class="muted">View Public Profile</button>
+                        <div class="profile-link">
+                            <a href="">https://app.ahirego...</a>
+                            <i class="fa fa-paste" title="copy"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="section">
+                    <div class="sections">
+                        <a href="" class="muted active navbar">
+                            Account Settings
+                        </a>
+                        <a href="" class="muted navbar">
+                            Account Settings
+                        </a>
+                        <a href="" class="muted navbar">
+                            Company Settings
+                        </a>
+                        <a href="" class="muted navbar">
+                            Documents
+                        </a>
+                        <a href="" class="muted navbar">
+                            Blog
+                        </a>
+                        <a href="" class="muted navbar">
+                            Notifications
+                        </a>
+                        <div class="indicator"></div>
+                    </div>
+
+                    <form>
+                        <p>
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="" id="first-name" value="Thomas" placeholder="" />
+                        </p>
+
+                        <p>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="" id="last-name" value="Rollo" placeholder="" />
+                        </p>
+                        
+                        <p>
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="" id="phone-number"  value="+212600000000" placeholder="" />
+                            
+                        </p>
+
+                        <p>
+                            <label for="email">Email address</label>
+                            <input type="email" name="" id="email" value="thomas.rollo@gmail.co.uk" placeholder="" />
+                        </p>
+                        
+                        <p>
+                            <label for="city">City</label>
+                            <input type="text" name="" id="city" value="London" placeholder="" />
+                        </p>
+                        
+                        <p>
+                            <label for="state">StateCountry</label>
+                            <input type="text" name="" id="state" value="UK" placeholder="" />
+                        </p>
+                        
+                        <p>
+                            <label for="postcode">Postcode</label>
+                            <input type="number" name="" id="postcode" value="32005" placeholder="" />
+                        </p>
+                        
+                        <p>
+                            <label for="country">Country</label>
+                            <input type="text" name="" id="country" value="United Kingdom" placeholder="" />
+                        </p>
+                    </form>
+                    <hr />
+                    <button type="submit">Update</button>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
